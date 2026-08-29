@@ -1,0 +1,170 @@
+@font-face{
+    font-family: "myfont";
+    src:url(./Molle-Italic.ttf)
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    background-color:whitesmoke;
+}
+
+section{
+    height: 150px;
+    text-align: center;
+}
+
+.abc{
+    background: aqua;
+}
+
+.about{
+    background:rgb(196, 196, 196);
+}
+
+.text{
+    background: palevioletred;
+}
+
+h3{
+    font-size: 25px;
+}
+p{
+    font-size: 20px;
+    font-family:cursive;
+}
+
+.box{
+    width: 260px;
+    height: 260px;
+    background: rgb(113, 24, 105);
+    padding: 20px;
+}
+
+.box1{
+    width: 180px;
+    height: 180px;
+    background: rgb(157, 16, 44);
+    padding: 10px;
+}
+
+.hello{
+    width: 250px;
+    height: 240px;
+    background: #0338476f;
+}
+
+.hii{
+    width: 80%;
+    height: 80%;
+    background: #a03768;
+    border-radius: 20%;
+}
+
+.krishn{
+    width: 100px;
+    height: 100px;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdXyumj7Iyj0lJagkwsZHqWlnPbPy1ULDdVgqNO4NFFg&s);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: right;
+}
+
+.radhe{
+    width: 600px;
+    height: 600px;
+    background: url(https://mrwallpaper.com/images/high/krishna-iphone-silhouette-galaxy-rheaglv7kgp3mqw7.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: palevioletred;
+    border: 6px solid purple;
+}
+
+.main{
+    width: 800px;
+    height: 300px;
+    background: #740c3c;
+    background: linear-gradient(pink, blue, crimson);
+    margin-left: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 40px;
+    padding: 25px;
+    border:6px solid rgb(4, 43, 83);                               
+    border-radius: 20px;
+    h1{
+        font-family: myfont;
+        color: #011238;
+    }
+    p{
+        color: #f6f480;
+        font-family:cursive;
+    }
+}
+
+.out{
+    width: 50%;
+    height: 50%;
+    background: linear-gradient(pink, yellow);
+    margin: 30px;
+    padding: 15px;
+    border: 5px solid blueviolet;
+}
+
+.inner{
+    width: 50%;
+    height: 50%;
+    background: linear-gradient(black,white);
+    margin:20px;
+    padding: 10px;
+    border: 4px solid blueviolet;
+}
+
+.car1{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: aqua;
+    border: 3px solid black;
+}
+.car2{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: #f6f480;
+    border: 3px solid rgb(14, 62, 183);
+}
+.car3{
+    width: 150px;
+    height: 150px;
+    background-color: purple;
+    border: 3px solid rgb(230, 67, 67);
+}
+
+.bike1{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color:crimson ;
+    border: 2px solid white;
+    left: 20%;
+    text
+    p{
+        color: aqua;
+        font-family: "myfont";
+        font-size: 71px;
+    }
+}
+
+.bike2{
+    position: absolute;
+    width: 190px;
+    height: 190px;
+    background-color: #b86a8e;
+}
