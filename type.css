@@ -1,0 +1,63 @@
+/* #hii{
+    color: rgb(45, 5, 101);
+}
+
+.main{
+    color: rgb(32, 76, 143);
+}
+
+h4,h5,h6{
+    color: rgb(12, 14, 114);
+    background-color: rgb(96, 125, 186);
+    
+}
+/* 
+*{
+    background-color: rgb(255,0,0);
+} */
+
+/* body{
+    background-color:rgb(233, 166, 223)
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Molle:ital@1&family=Roboto+Slab:wght@100..900&display=swap');
+
+p{
+font-family: "Roboto Slab", serif;
+font-optical-sizing: auto;
+font-weight: <weight>;
+font-style: normal;
+}
+
+#size{
+    font-size: 40px;
+    /* font-style: italic; */
+    letter-spacing: 2px;
+    line-height: 45px;
+    font-size: 30px;
+}
+
+
+/* .container{
+    background-color: aqua;
+    width: 50em;
+    height: 50vh;
+}
+.child{
+    background: #b6507c;
+    width: 50em;    
+} */
+
+/* .card2{
+    width: 100px;
+    height: 100px;
+    padding: 50px;
+    background-color: #b6507c;
+    border: 5px solid rgb(227, 176, 10);
+    border-radius: 50%;
+    
+} */  */
+
+.content {
+    background-color: beige;
+}
