@@ -33,9 +33,9 @@
 }
 
 .parent{
-    display: flex;
+    /* display: flex;
     gap: 40px;
-    /* flex-direction: row; */
+    flex-direction: row; */
     /* flex-wrap: nowrap; */
     /* flex-wrap: wrap; */
     width: 1200px;
@@ -43,6 +43,28 @@
     /* Shorthand */
     
 }
+    /* <style>
+        .container{
+            display:grid;
+            /* grid-template-columns:repeat(3,200px); */
+            /* grid-template-columns:repeat(3,minmax(200px, 1fr)); */
+            /* grid-template-columns: minmax(200px,1fr) minmax(200px,1fr) minmax(200px,1fr); */
+            /* gap: 20px; */
+            /* grid-template-rows: 100px 400px;
+            row-gap: 20px; */
+            /* border: 2px solid black; */
+        }
+        /* .box{
+            border: 2px solid black;
+        } */
+    </style> */
+
+    .parent{
+        display: grid;
+        grid-template-columns: 200px 200px 200px;
+        gap: 20px
+
+    }
 
 .box{
     width: 200px;
@@ -50,11 +72,11 @@
    
 }
 .box1{
-    background: pink;
+    background: pink; */
     /* flex-grow: 2; */
     /* flex-shrink: 1; */
     /* flex-basis: 500px; */
-    flex: 2 1 200px;
+    /* flex: 2 1 200px; */
 }
 .box2{
     background: blueviolet;
@@ -68,7 +90,6 @@
 .box4{
     background: paleturquoise;
 }
-
 .box5{
     background: violet;
 }
