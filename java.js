@@ -209,7 +209,74 @@
 // },5000)
 // }
 
-let arr=[1,2,3,4,5,6]
-arr.forEach((n)=>{
-    console.log(n);
-})
+// let arr=[1,2,3,4,5,6]
+// arr.forEach((n)=>{
+//     console.log(n);
+// })
+
+//Rest parameter & argument
+// spread syntax (...n)
+// function add(...n){               
+// let sum=0;
+// for(let i=0;i<n.length;i++){
+// sum=sum+n[i];
+// }
+// return sum;
+// }
+// let result=add(1,2,3,4,5,6);
+// console.log(result);
+
+//spread syntax when function calling
+// function add(a,b,c,d){
+//     console.log(a+b+c+d);
+// }
+// let m=[20,30,40,50,60];
+// add(...m);
+
+// using spread syntax copy & combining array
+//copy
+// let arr=[10,20,30,40];
+// let copy=[...arr];
+// //let copy=arr
+// copy.push(50);
+// console.log(arr);
+// console.log(copy);
+// //combine
+// let num=[90,80,70,60];
+// let combine=[...arr,...num];
+// let combine1=[arr,num];
+// console.log(combine);
+// console.log(combine1);
+
+//fin min max using Math 
+// let arr=[10,20,50,60,12,5,32];
+// console.log(Math.max(...arr));
+// console.log(Math.min(...arr));
+
+let student={
+    name:"Kanha",
+    age:20
+}
+
+let stu={
+    course:"Radhe",
+    age:21
+}
+// console.log(student);
+// let copy={...student};
+// console.log(copy);
+
+// let combine={...student,...stu};
+// console.log(combine);
+
+// let students=["muskan","maneesha","sita"];
+// let [student1,student2,student3]=students
+// console.log(student1);
+// console.log(student2);
+// console.log(student3);
+
+let students=["muskan","maneesha","sita"];
+let [student1,student2,student3]=[students[0],students[2],students[1]]
+console.log(student1);
+console.log(student2);
+console.log(student3);
