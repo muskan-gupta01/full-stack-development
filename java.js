@@ -253,15 +253,15 @@
 // console.log(Math.max(...arr));
 // console.log(Math.min(...arr));
 
-let student={
-    name:"Kanha",
-    age:20
-}
+// let student={
+//     name:"Kanha",
+//     age:20
+// }
 
-let stu={
-    course:"Radhe",
-    age:21
-}
+// let stu={
+//     course:"Radhe",
+//     age:21
+// }
 // console.log(student);
 // let copy={...student};
 // console.log(copy);
@@ -275,8 +275,147 @@ let stu={
 // console.log(student2);
 // console.log(student3);
 
-let students=["muskan","maneesha","sita"];
-let [student1,student2,student3]=[students[0],students[2],students[1]]
-console.log(student1);
-console.log(student2);
-console.log(student3);
+// let students=["muskan","maneesha","sita"];
+// let [student1,student2,student3]=[students[0],students[2],students[1]]
+// console.log(student1);
+// console.log(student2);
+// console.log(student3);
+
+// let arr=[45,57,78]
+// sum=0;
+// for(i=0;i<arr.length;i++){
+//     sum=+arr[i];
+// }
+// console.log(sum);
+
+//helper function
+// function helper(a,b){
+// console.log(a+b);
+// }
+// helper(2,2);
+
+//use push & unshift using array
+// let arr=[5,6,7];
+// arr.push(48);
+// arr.unshift(85);
+// console.log(arr);
+
+// let arr1=[1,2,3];
+// let arr2=[4,5,6];
+// for(let i=0;i<arr2.length;i++){
+//     arr1.unshift(arr2[i])
+// }
+// console.log(arr1);
+
+//Array.isArray use...
+// let arr1=45;
+// let arr2="Muskan";
+// let arr3=[1,2,3,4,5];
+// function check(items){
+//     if(Array.isArray(items)){
+//         return true;
+//     }
+//     return false;
+// }
+// console.log(check(arr1))
+// console.log(check(arr2))
+// console.log(check(arr3))
+
+
+// let arr=[287,54,655,2,3];
+// arr.forEach((n)=>){
+//     console.log=arr.map
+// }
+
+
+// String litrals and immutability
+// let str = "Hello";
+// str[0]='h';
+// console.log(str);
+// console.log(str[0]);
+
+//template litrals
+// let a=10;
+// let srt1="hii";
+// console.log(`hii ${a}`);
+
+//trim
+// let str = "  Mere Kanha  ";
+// console.log(str);
+// console.log(str.trim());
+// console.log(str.trimStart());
+// console.log(str.trimEnd());
+// console.log(str.toLocaleUpperCase());
+// console.log(str.toLocaleLowerCase());
+// console.log(str.includes("Mere"));
+// console.log(str.startsWith("Me"));
+// console.log(str.endsWith("nha"));
+
+//Slicing
+// let str = "JavaScript";
+// console.log(str.slice(0,4));
+// console.log(str.substring(2,5));
+
+// let str = "Java Script";
+// str=str.split(" ");
+// console.log(str);
+// console.log(str.join(""));
+// console.log(str.split("").reverse().join(""));
+// let str1=str;
+// let result=str.split("").reverse().join("");
+// if(str1===str){
+//     console.log("True");
+// }else console.log("false");
+
+
+// let str="Hello";
+// let str1=str;
+// let result=str.split("").reverse().join("");
+// if(str1===str){
+//     console.log("True");
+// }else console.log("false");
+
+//replace
+// let str = "java java java java java ";
+// console.log(str.replace("java","Python"));
+// console.log(str.replaceAll("java","HTML"));
+
+//I=indexof
+// let arr=[1,2,3,4,15];
+// let arr1=[5,6,7,8];
+// console.log(arr.indexOf(45));
+// console.log(arr.indexOf(8));
+// console.log(arr.concat(arr1));
+// console.log(arr.reverse());
+
+// let arr=[1,2,3];
+// let sum=0;
+// for(let val of arr){
+//     sum=sum+val
+// }
+
+// console.log(sum);
+// console.log(Math.min(...arr));
+// console.log(Math.max(...arr));
+
+
+//nested arr
+// let arr=[[1,2,3],[4,5,6]];
+// for(let i=0;i<arr.length;i++){
+//     for(let val of arr[i]){
+//         console.log(val);
+//     }
+// }
+
+//ascendin decending
+// let arr=[1,2,3,4,5];
+// console.log(arr.sort((a,b)=>b-a));
+// console.log(arr.sort((a,b)=>a-b));
+
+//object.......
+let student={
+    name:"Muskan",
+    course:"BCA-AI"
+}
+console.log(student.name);
+console.log(student.course);
