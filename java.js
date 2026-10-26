@@ -407,7 +407,7 @@
 //     }
 // }
 
-//ascendin decending
+//ascendin, decending
 // let arr=[1,2,3,4,5];
 // console.log(arr.sort((a,b)=>b-a));
 // console.log(arr.sort((a,b)=>a-b));
@@ -419,3 +419,5 @@ let student={
 }
 console.log(student.name);
 console.log(student.course);
+console.log(Object.hasOwn(student,"name"));
+console.log(Object.hasOwn(student,"age"));
