@@ -1,6 +1,8 @@
-let arr=[45,57,78]
-sum=0;
-for(i=0;i<arr.length;i++){
-    sum=+arr[i];
+let student={
+    name:"Muskan",
+    age:"20"
+    address:{
+        city:"Bareilly",
+        pincode:243503
+    }
 }
-console.log(sum);

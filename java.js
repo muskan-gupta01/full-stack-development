@@ -413,11 +413,63 @@
 // console.log(arr.sort((a,b)=>a-b));
 
 //object.......
-let student={
-    name:"Muskan",
-    course:"BCA-AI"
+// let student={
+//     name:"Muskan",
+//     course:"BCA-AI"
+// }
+// console.log(student.name);
+// console.log(student.course);
+// console.log(Object.hasOwn(student,"name"));
+// console.log(Object.hasOwn(student,"age"));
+
+//returning object from function
+// function student(name,course){
+//     return{
+//         name:name,
+//         course:course
+//     }
+// }
+// let detail=student("Muskan","BCA-AI");
+// console.log(detail);
+
+//object destructuring
+// let student={
+//     name:"Muskan",
+//     age:"20",
+//     address:{
+//         city:"Bareilly",
+//         pincode:243503
+//     }
+// }
+// let{name:studentName,age,data=19}=student;
+// console.log(studentName);
+// console.log(age);
+// console.log(data);
+
+// let {address:{city,pincode}}=student
+// console.log(city);
+// console.log(pincode);
+
+//keys & values name
+// let student ={
+//     name:"Muskan",
+//     age:20,
+//     city:"Bareilly"
+// }
+// console.log(Object.keys(student));
+// console.log(Object.values(student));
+// console.log(Object.entries(student));
+// for(let val of Object.keys(student)){
+//     console.log(val,student[val]);
+// }
+
+
+//JSON
+let jsonData={
+    "name":"muskan",
+    "age":45
 }
-console.log(student.name);
-console.log(student.course);
-console.log(Object.hasOwn(student,"name"));
-console.log(Object.hasOwn(student,"age"));
+console.log(jsonData)
+
+let data=JSON.stringify(jsonData)
+(metho)
