@@ -465,11 +465,12 @@
 
 
 //JSON
-let jsonData={
-    "name":"muskan",
-    "age":45
-}
-console.log(jsonData)
+// let jsonData={
+//     "name":"muskan",
+//     "age":45
+// }
+// console.log(jsonData)
 
-let data=JSON.stringify(jsonData)
-(metho)
+// let data=JSON.stringify(jsonData)
+// (metho) incomplete
+

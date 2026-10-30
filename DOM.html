@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="heading">Hello </h1>
+    <h2 class="heading2">Hello</h2>
+    <h3 class="heading2">Radhe Krishn</h3>
+    <p class="p1">Radhe Radhe</p>
+    <p class="p1">Jai shri Krishn</p>
+    <h2 class="p1">Jai shri shyam</h2>
+
+
+    <div class="card">
+        <h1>Shyama pyari</h1>
+        <p>Shrii ji</p>
+    </div>
+
+    <script>
+        const head=document.getElementById("heading");
+        console.log(head);
+
+        const head1=document.getElementsByClassName("heading2");
+        console.log(head1[0]);
+
+        let head2=document.querySelector(".p1");
+        console.log(head2);
+
+        let head3=document.querySelectorAll(".p1");
+        console.log(head3);
+
+        let card=document.querySelector(".card");
+        let head4=card.querySelector("h1");
+        console.log(head4);
+
+        let head5=document.querySelector(".p1");
+        head.textContent="Radhe HELLO"
+        // console.log(head5.textContent);
+        
+        
+
+        if(card){
+            console.log("Found");
+        }else{
+            console.log("Not found");
+        }
+    </script>
+</body>
+</html>
