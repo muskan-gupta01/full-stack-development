@@ -89,9 +89,51 @@
     <link rel="stylesheet" href="type.css">
 </head>
 <body>
-    <div class="content">
+    <!-- <div class="content">
         <div class="rectangel"></div>
     </div>
-    </main>
+    </main> -->
+    <script>
+        // localStorage.setItem("name", "Muskan Gupta");
+        // console.log(localStorage.getItem("name"));
+
+        // localStorage.setItem("age", 10);
+        // console.log(localStorage.setItem("age"));
+
+        // sessionStorage.setItem("course", "BCA-AI");
+        // console.log(sessionStorage.getItem("course"));
+
+        // localStorage.setItem("age",25);
+        // let age=Number(localStorage.getItem("age"));
+        // let course=localStorage.getItem("course") || "BCA-AI"
+        // console.log(age);
+        // console.log(typeof age);
+        // console.log(course);
+
+        let student=[
+            {name:"Radha", age:20},
+            {name:"kanha", age:21}
+        ]
+[]
+        let data=localStorage.getItem("student");
+        let studentDATA=JSON.parse(data)
+        console.log(data);
+        console.log(studentDATA[0]);
+        console.log(typeof data);
+        console.log(student);
+
+        console.log(studentDATA[0].name)
+
+        let updateStudent={
+            ...studentDATA[1],
+            age:26
+
+        }
+      
+        localStorage.setItem("student", JSON.stringify(updateStudent));
+        console.log(student[0].name);
+
+    </script>
+
 </body>
 </html>

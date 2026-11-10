@@ -474,3 +474,7 @@
 // let data=JSON.stringify(jsonData)
 // (metho) incomplete
 
+
+
+localStorage.setItem("name", "Muskan Gupta");
+console.log(localStorage.getItem("name"));
